@@ -6,9 +6,9 @@ The individual entries (or in TiddlyWiki terms, tiddlers) are in thematic groups
 
 For example:
 
-* majorrace.json defines a tiddler for the Aslan race
-    * aslan.json expands the Aslan tiddler and adds a number of extra tiddlers that provide more information, including a tiddler about the Aslan language Trokh
-        * trokh.json contains a list of common words in Trokh
+* `majorrace.json` defines a tiddler for the Aslan race
+    * `aslan.json` expands the Aslan tiddler and adds a number of extra tiddlers that provide more information, including a tiddler about the Aslan language Trokh
+        * `trokh.json` contains a list of common words in Trokh
 
 These files should be added to TiddlyWiki in the order given; if they're not, more detailed entries will be overwritten by less detailed. Unfortunately, TiddlyWiki doesn't have a good mechanism for expressing dependencies of this form (unless one wilfully misuses the plugin mechanism), so the following hierarchical list will have to suffice:
 
